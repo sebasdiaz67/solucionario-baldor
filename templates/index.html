@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="content-wrapper">
+    <h1>📚 Solucionario de Álgebra</h1>
+    
+    <div class="intro">
+        <h2>🎯 Bienvenido al Solucionario de Álgebra</h2>
+        <p>Este solucionario interactivo contiene ejercicios de álgebra con soluciones paso a paso, organizados por capítulos para facilitar tu aprendizaje.</p>
+        
+        <div class="stats">
+            <h3>📊 Estadísticas del Solucionario</h3>
+            <ul>
+                <li><strong>Total de capítulos:</strong> {{ chapters|length }}</li>
+                <li><strong>Total de ejercicios:</strong> {{ chapters|map(attribute='exercises')|map('length')|sum }}</li>
+                <li><strong>Ejercicios por capítulo:</strong> 30 ejercicios</li>
+            </ul>
+        </div>
+        
+        <div class="chapters-overview">
+            <h3>📖 Capítulos Disponibles</h3>
+            <div class="chapter-grid">
+                {% for chapter in chapters %}
+                <div class="chapter-card">
+                    <div class="chapter-header">
+                        <h4>Capítulo {{ loop.index }}: {{ chapter.title }}</h4>
+                    </div>
+                    <div class="chapter-content">
+                        <p><strong>Ejercicios:</strong> {{ chapter.exercises|length }}</p>
+                        <p><strong>ID Range:</strong> {{ chapter.exercises[0].id }} - {{ chapter.exercises[-1].id }}</p>
+                        <a href="capitulo-{{ chapter.slug }}.html" class="chapter-link">
+                            📝 Ver Ejercicios
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="features">
+            <h3>✨ Características</h3>
+            <ul>
+                <li>🔢 <strong>Ejercicios variados:</strong> Cada capítulo contiene 30 ejercicios diferentes</li>
+                <li>📝 <strong>Soluciones paso a paso:</strong> Cada ejercicio incluye el procedimiento detallado</li>
+                <li>🎨 <strong>Renderizado matemático:</strong> Fórmulas renderizadas con MathJax</li>
+                <li>👁️ <strong>Soluciones ocultas:</strong> Intenta resolver antes de ver la solución</li>
+                <li>📱 <strong>Diseño responsivo:</strong> Funciona en cualquier dispositivo</li>
+                <li>🔄 <strong>Navegación fácil:</strong> Acceso rápido entre capítulos</li>
+            </ul>
+        </div>
+        
+        <div class="how-to-use">
+            <h3>🎓 Cómo Usar el Solucionario</h3>
+            <ol>
+                <li><strong>Elige un capítulo:</strong> Usa el menú lateral o las tarjetas de capítulos</li>
+                <li><strong>Intenta resolver:</strong> Lee cada ejercicio y trata de resolverlo</li>
+                <li><strong>Verifica tu respuesta:</strong> Haz clic en "Ver Solución" para comprobar</li>
+                <li><strong>Estudia los pasos:</strong> Analiza cada paso de la solución</li>
+                <li><strong>Practica más:</strong> Repite con otros ejercicios del mismo capítulo</li>
+            </ol>
+        </div>
+        
+        <div class="technical-info">
+            <h3>🛠️ Información Técnica</h3>
+            <p>Este solucionario fue generado automáticamente usando:</p>
+            <ul>
+                <li><strong>Python 3</strong> - Lenguaje de programación</li>
+                <li><strong>SymPy</strong> - Biblioteca de matemáticas simbólicas</li>
+                <li><strong>Jinja2</strong> - Motor de plantillas</li>
+                <li><strong>MathJax</strong> - Renderizado de fórmulas matemáticas</li>
+                <li><strong>HTML5 + CSS3 + JavaScript</strong> - Tecnologías web</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.stats {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.stats h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stats li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.chapters-overview {
+    margin: 3rem 0;
+}
+
+.chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.chapter-card {
+    background: white;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+}
+
+.chapter-header {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    padding: 1rem;
+}
+
+.chapter-header h4 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.chapter-content {
+    padding: 1.5rem;
+}
+
+.chapter-content p {
+    margin-bottom: 0.5rem;
+}
+
+.chapter-link {
+    display: inline-block;
+    background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.chapter-link:hover {
+    background: linear-gradient(135deg, #229954 0%, #1e8449 100%);
+    transform: translateY(-2px);
+}
+
+.features, .how-to-use, .technical-info {
+    margin: 3rem 0;
+    text-align: left;
+}
+
+.features ul, .how-to-use ol, .technical-info ul {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 5px solid #3498db;
+}
+
+.features li, .how-to-use li, .technical-info li {
+    margin-bottom: 1rem;
+}
+
+.technical-info {
+    background: linear-gradient(135deg, #ecf0f1 0%, #bdc3c7 100%);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.technical-info ul {
+    background: white;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .chapter-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .features ul, .how-to-use ol, .technical-info ul {
+        padding: 1rem;
+    }
+}
+</style>
+{% endblock %}

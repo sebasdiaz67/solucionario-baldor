@@ -1,0 +1,1974 @@
+{
+  "chapters": [
+    {
+      "title": "Operaciones Básicas",
+      "slug": "operaciones-basicas",
+      "exercises": [
+        {
+          "id": "O001",
+          "problem": "(-4 - 5x - 1x^2 - 2x^3) \\cdot (-3 - 4x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-4 - 5x - 1x^2 - 2x^3) \\cdot (-3 - 4x) = 8 x^{4} + 10 x^{3} + 23 x^{2} + 31 x + 12"
+          ],
+          "solution": "8 x^{4} + 10 x^{3} + 23 x^{2} + 31 x + 12"
+        },
+        {
+          "id": "O002",
+          "problem": "(3 - 4x + 4x^2 + x^3) + (-5 - 4x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(3 - 4x + 4x^2 + x^3) + (-5 - 4x) = x^{3} + 4 x^{2} - 8 x - 2"
+          ],
+          "solution": "x^{3} + 4 x^{2} - 8 x - 2"
+        },
+        {
+          "id": "O003",
+          "problem": "(3 + 4x) \\cdot (3 - 2x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(3 + 4x) \\cdot (3 - 2x) = - 8 x^{2} + 6 x + 9"
+          ],
+          "solution": "- 8 x^{2} + 6 x + 9"
+        },
+        {
+          "id": "O004",
+          "problem": "(3 + x - 2x^2 + 2x^3) - (-5 - 3x + x^2)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(3 + x - 2x^2 + 2x^3) - (-5 - 3x + x^2) = 2 x^{3} - 3 x^{2} + 4 x + 8"
+          ],
+          "solution": "2 x^{3} - 3 x^{2} + 4 x + 8"
+        },
+        {
+          "id": "O005",
+          "problem": "(-3 - 2x) + (-4 + x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-3 - 2x) + (-4 + x) = - x - 7"
+          ],
+          "solution": "- x - 7"
+        },
+        {
+          "id": "O006",
+          "problem": "(4x - 1x^2) + (2 + 3x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(4x - 1x^2) + (2 + 3x) = - x^{2} + 7 x + 2"
+          ],
+          "solution": "- x^{2} + 7 x + 2"
+        },
+        {
+          "id": "O007",
+          "problem": "(-4 + 3x - 1x^2) + (4 - 2x - 4x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-4 + 3x - 1x^2) + (4 - 2x - 4x^2) = x \\left(1 - 5 x\\right)"
+          ],
+          "solution": "x \\left(1 - 5 x\\right)"
+        },
+        {
+          "id": "O008",
+          "problem": "(-2 - 1x - 4x^2 - 2x^3) - (1 - 1x)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(-2 - 1x - 4x^2 - 2x^3) - (1 - 1x) = - 2 x^{3} - 4 x^{2} - 3"
+          ],
+          "solution": "- 2 x^{3} - 4 x^{2} - 3"
+        },
+        {
+          "id": "O009",
+          "problem": "(-3x) \\cdot (5 - 1x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-3x) \\cdot (5 - 1x) = 3 x^{2} - 15 x"
+          ],
+          "solution": "3 x^{2} - 15 x"
+        },
+        {
+          "id": "O010",
+          "problem": "(5 - 4x + 4x^2 + 5x^3) + (3 - 2x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(5 - 4x + 4x^2 + 5x^3) + (3 - 2x) = 5 x^{3} + 4 x^{2} - 6 x + 8"
+          ],
+          "solution": "5 x^{3} + 4 x^{2} - 6 x + 8"
+        },
+        {
+          "id": "O011",
+          "problem": "(1 - 1x + 5x^2) + (5)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(1 - 1x + 5x^2) + (5) = 5 x^{2} - x + 6"
+          ],
+          "solution": "5 x^{2} - x + 6"
+        },
+        {
+          "id": "O012",
+          "problem": "(-5) \\cdot (-1 - 4x - 2x^2)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-5) \\cdot (-1 - 4x - 2x^2) = 10 x^{2} + 20 x + 5"
+          ],
+          "solution": "10 x^{2} + 20 x + 5"
+        },
+        {
+          "id": "O013",
+          "problem": "(-2x + 5x^2 + 2x^3) - (5 + 2x - 3x^2)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(-2x + 5x^2 + 2x^3) - (5 + 2x - 3x^2) = 2 x^{3} + 8 x^{2} - 4 x - 5"
+          ],
+          "solution": "2 x^{3} + 8 x^{2} - 4 x - 5"
+        },
+        {
+          "id": "O014",
+          "problem": "(-2 + 3x) - (4 + x + 4x^2)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(-2 + 3x) - (4 + x + 4x^2) = - 4 x^{2} + 2 x - 6"
+          ],
+          "solution": "- 4 x^{2} + 2 x - 6"
+        },
+        {
+          "id": "O015",
+          "problem": "(-2 - 3x + 3x^2) + (-4 - 5x - 4x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-2 - 3x + 3x^2) + (-4 - 5x - 4x^2) = - x^{2} - 8 x - 6"
+          ],
+          "solution": "- x^{2} - 8 x - 6"
+        },
+        {
+          "id": "O016",
+          "problem": "(-3 + 5x + x^2 + 4x^3) \\cdot (1 + x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-3 + 5x + x^2 + 4x^3) \\cdot (1 + x) = 4 x^{4} + 5 x^{3} + 6 x^{2} + 2 x - 3"
+          ],
+          "solution": "4 x^{4} + 5 x^{3} + 6 x^{2} + 2 x - 3"
+        },
+        {
+          "id": "O017",
+          "problem": "(3 - 1x + 3x^2) \\cdot (5 - 4x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(3 - 1x + 3x^2) \\cdot (5 - 4x) = - 12 x^{3} + 19 x^{2} - 17 x + 15"
+          ],
+          "solution": "- 12 x^{3} + 19 x^{2} - 17 x + 15"
+        },
+        {
+          "id": "O018",
+          "problem": "(-1 + 5x - 4x^3) + (1 - 3x + 2x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-1 + 5x - 4x^3) + (1 - 3x + 2x^2) = 2 x \\left(- 2 x^{2} + x + 1\\right)"
+          ],
+          "solution": "2 x \\left(- 2 x^{2} + x + 1\\right)"
+        },
+        {
+          "id": "O019",
+          "problem": "(-1 + 3x - 3x^2 + 3x^3) \\cdot (5 - 1x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-1 + 3x - 3x^2 + 3x^3) \\cdot (5 - 1x) = - 3 x^{4} + 18 x^{3} - 18 x^{2} + 16 x - 5"
+          ],
+          "solution": "- 3 x^{4} + 18 x^{3} - 18 x^{2} + 16 x - 5"
+        },
+        {
+          "id": "O020",
+          "problem": "(4 - 2x - 3x^2) + (3 + 3x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(4 - 2x - 3x^2) + (3 + 3x) = - 3 x^{2} + x + 7"
+          ],
+          "solution": "- 3 x^{2} + x + 7"
+        },
+        {
+          "id": "O021",
+          "problem": "(2x - 5x^2 - 4x^3) + (-1 - 2x - 5x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(2x - 5x^2 - 4x^3) + (-1 - 2x - 5x^2) = - 4 x^{3} - 10 x^{2} - 1"
+          ],
+          "solution": "- 4 x^{3} - 10 x^{2} - 1"
+        },
+        {
+          "id": "O022",
+          "problem": "(-4 - 4x + 2x^2 - 4x^3) - (-3 + 5x)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(-4 - 4x + 2x^2 - 4x^3) - (-3 + 5x) = - 4 x^{3} + 2 x^{2} - 9 x - 1"
+          ],
+          "solution": "- 4 x^{3} + 2 x^{2} - 9 x - 1"
+        },
+        {
+          "id": "O023",
+          "problem": "(-3 - 1x + 3x^2 + 4x^3) \\cdot (-2 + 3x - 2x^2)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-3 - 1x + 3x^2 + 4x^3) \\cdot (-2 + 3x - 2x^2) = - 8 x^{5} + 6 x^{4} + 3 x^{3} - 3 x^{2} - 7 x + 6"
+          ],
+          "solution": "- 8 x^{5} + 6 x^{4} + 3 x^{3} - 3 x^{2} - 7 x + 6"
+        },
+        {
+          "id": "O024",
+          "problem": "(1 + 5x + 5x^2) + (2 + 3x + 2x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(1 + 5x + 5x^2) + (2 + 3x + 2x^2) = 7 x^{2} + 8 x + 3"
+          ],
+          "solution": "7 x^{2} + 8 x + 3"
+        },
+        {
+          "id": "O025",
+          "problem": "(-2 - 4x) + (-5 + 4x + 3x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-2 - 4x) + (-5 + 4x + 3x^2) = 3 x^{2} - 7"
+          ],
+          "solution": "3 x^{2} - 7"
+        },
+        {
+          "id": "O026",
+          "problem": "(-2 - 5x - 4x^2 + 5x^3) + (-2 - 4x)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(-2 - 5x - 4x^2 + 5x^3) + (-2 - 4x) = 5 x^{3} - 4 x^{2} - 9 x - 4"
+          ],
+          "solution": "5 x^{3} - 4 x^{2} - 9 x - 4"
+        },
+        {
+          "id": "O027",
+          "problem": "(-4 + 3x - 2x^2) \\cdot (5 + 2x - 2x^2)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-4 + 3x - 2x^2) \\cdot (5 + 2x - 2x^2) = 4 x^{4} - 10 x^{3} + 4 x^{2} + 7 x - 20"
+          ],
+          "solution": "4 x^{4} - 10 x^{3} + 4 x^{2} + 7 x - 20"
+        },
+        {
+          "id": "O028",
+          "problem": "(4 + 4x) + (-2 + 2x + x^2)",
+          "steps": [
+            "Sumar los términos semejantes",
+            "(4 + 4x) + (-2 + 2x + x^2) = x^{2} + 6 x + 2"
+          ],
+          "solution": "x^{2} + 6 x + 2"
+        },
+        {
+          "id": "O029",
+          "problem": "(-4 + 5x) - (x + x^2)",
+          "steps": [
+            "Restar los términos semejantes",
+            "(-4 + 5x) - (x + x^2) = - x^{2} + 4 x - 4"
+          ],
+          "solution": "- x^{2} + 4 x - 4"
+        },
+        {
+          "id": "O030",
+          "problem": "(-5 + 5x + 5x^2 + 5x^3) \\cdot (-5 + x)",
+          "steps": [
+            "Aplicar propiedad distributiva",
+            "(-5 + 5x + 5x^2 + 5x^3) \\cdot (-5 + x) = 5 x^{4} - 20 x^{3} - 20 x^{2} - 30 x + 25"
+          ],
+          "solution": "5 x^{4} - 20 x^{3} - 20 x^{2} - 30 x + 25"
+        }
+      ]
+    },
+    {
+      "title": "Productos Notables",
+      "slug": "productos-notables",
+      "exercises": [
+        {
+          "id": "P031",
+          "problem": "(2x + 4)(2x - 4)",
+          "steps": [
+            "Aplicar fórmula: (a + b)(a - b) = a² - b²",
+            "a = 2x, b = 4",
+            "(2x)² - (4)²",
+            "4x² - 16"
+          ],
+          "solution": "4 x^{2} - 16"
+        },
+        {
+          "id": "P032",
+          "problem": "(4x - 9)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 4x, b = 9",
+            "(4x)² - 2(4x)(9) + (9)²",
+            "16x² - 72x + 81"
+          ],
+          "solution": "16 x^{2} - 72 x + 81"
+        },
+        {
+          "id": "P033",
+          "problem": "(3x + 7)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 3x, b = 7",
+            "(3x)³ + 3(3x)²(7) + 3(3x)(7)² + (7)³",
+            "27x³ + 189x² + 441x + 343"
+          ],
+          "solution": "27 x^{3} + 189 x^{2} + 441 x + 343"
+        },
+        {
+          "id": "P034",
+          "problem": "(5x - 8)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 5x, b = 8",
+            "(5x)² - 2(5x)(8) + (8)²",
+            "25x² - 80x + 64"
+          ],
+          "solution": "25 x^{2} - 80 x + 64"
+        },
+        {
+          "id": "P035",
+          "problem": "(2x - 8)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 2x, b = 8",
+            "(2x)² - 2(2x)(8) + (8)²",
+            "4x² - 32x + 64"
+          ],
+          "solution": "4 x^{2} - 32 x + 64"
+        },
+        {
+          "id": "P036",
+          "problem": "(2x - 1)^3",
+          "steps": [
+            "Aplicar fórmula: (a - b)³ = a³ - 3a²b + 3ab² - b³",
+            "a = 2x, b = 1",
+            "(2x)³ - 3(2x)²(1) + 3(2x)(1)² - (1)³",
+            "8x³ - 12x² + 6x - 1"
+          ],
+          "solution": "8 x^{3} - 12 x^{2} + 6 x - 1"
+        },
+        {
+          "id": "P037",
+          "problem": "(1x - 2)^3",
+          "steps": [
+            "Aplicar fórmula: (a - b)³ = a³ - 3a²b + 3ab² - b³",
+            "a = 1x, b = 2",
+            "(1x)³ - 3(1x)²(2) + 3(1x)(2)² - (2)³",
+            "1x³ - 6x² + 12x - 8"
+          ],
+          "solution": "x^{3} - 6 x^{2} + 12 x - 8"
+        },
+        {
+          "id": "P038",
+          "problem": "(3x - 7)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 3x, b = 7",
+            "(3x)² - 2(3x)(7) + (7)²",
+            "9x² - 42x + 49"
+          ],
+          "solution": "9 x^{2} - 42 x + 49"
+        },
+        {
+          "id": "P039",
+          "problem": "(8x + 4)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 8x, b = 4",
+            "(8x)³ + 3(8x)²(4) + 3(8x)(4)² + (4)³",
+            "512x³ + 768x² + 384x + 64"
+          ],
+          "solution": "512 x^{3} + 768 x^{2} + 384 x + 64"
+        },
+        {
+          "id": "P040",
+          "problem": "(1x + 3)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 1x, b = 3",
+            "(1x)³ + 3(1x)²(3) + 3(1x)(3)² + (3)³",
+            "1x³ + 9x² + 27x + 27"
+          ],
+          "solution": "x^{3} + 9 x^{2} + 27 x + 27"
+        },
+        {
+          "id": "P041",
+          "problem": "(1x + 7)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 1x, b = 7",
+            "(1x)³ + 3(1x)²(7) + 3(1x)(7)² + (7)³",
+            "1x³ + 21x² + 147x + 343"
+          ],
+          "solution": "x^{3} + 21 x^{2} + 147 x + 343"
+        },
+        {
+          "id": "P042",
+          "problem": "(8x + 5)(8x - 5)",
+          "steps": [
+            "Aplicar fórmula: (a + b)(a - b) = a² - b²",
+            "a = 8x, b = 5",
+            "(8x)² - (5)²",
+            "64x² - 25"
+          ],
+          "solution": "64 x^{2} - 25"
+        },
+        {
+          "id": "P043",
+          "problem": "(9x + 8)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 9x, b = 8",
+            "(9x)³ + 3(9x)²(8) + 3(9x)(8)² + (8)³",
+            "729x³ + 1944x² + 1728x + 512"
+          ],
+          "solution": "729 x^{3} + 1944 x^{2} + 1728 x + 512"
+        },
+        {
+          "id": "P044",
+          "problem": "(4x - 5)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 4x, b = 5",
+            "(4x)² - 2(4x)(5) + (5)²",
+            "16x² - 40x + 25"
+          ],
+          "solution": "16 x^{2} - 40 x + 25"
+        },
+        {
+          "id": "P045",
+          "problem": "(1x - 10)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 1x, b = 10",
+            "(1x)² - 2(1x)(10) + (10)²",
+            "1x² - 20x + 100"
+          ],
+          "solution": "x^{2} - 20 x + 100"
+        },
+        {
+          "id": "P046",
+          "problem": "(1x - 6)^3",
+          "steps": [
+            "Aplicar fórmula: (a - b)³ = a³ - 3a²b + 3ab² - b³",
+            "a = 1x, b = 6",
+            "(1x)³ - 3(1x)²(6) + 3(1x)(6)² - (6)³",
+            "1x³ - 18x² + 108x - 216"
+          ],
+          "solution": "x^{3} - 18 x^{2} + 108 x - 216"
+        },
+        {
+          "id": "P047",
+          "problem": "(1x + 10)^2",
+          "steps": [
+            "Aplicar fórmula: (a + b)² = a² + 2ab + b²",
+            "a = 1x, b = 10",
+            "(1x)² + 2(1x)(10) + (10)²",
+            "1x² + 20x + 100"
+          ],
+          "solution": "x^{2} + 20 x + 100"
+        },
+        {
+          "id": "P048",
+          "problem": "(9x + 9)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 9x, b = 9",
+            "(9x)³ + 3(9x)²(9) + 3(9x)(9)² + (9)³",
+            "729x³ + 2187x² + 2187x + 729"
+          ],
+          "solution": "729 x^{3} + 2187 x^{2} + 2187 x + 729"
+        },
+        {
+          "id": "P049",
+          "problem": "(1x - 9)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 1x, b = 9",
+            "(1x)² - 2(1x)(9) + (9)²",
+            "1x² - 18x + 81"
+          ],
+          "solution": "x^{2} - 18 x + 81"
+        },
+        {
+          "id": "P050",
+          "problem": "(3x + 2)^2",
+          "steps": [
+            "Aplicar fórmula: (a + b)² = a² + 2ab + b²",
+            "a = 3x, b = 2",
+            "(3x)² + 2(3x)(2) + (2)²",
+            "9x² + 12x + 4"
+          ],
+          "solution": "9 x^{2} + 12 x + 4"
+        },
+        {
+          "id": "P051",
+          "problem": "(2x - 4)^3",
+          "steps": [
+            "Aplicar fórmula: (a - b)³ = a³ - 3a²b + 3ab² - b³",
+            "a = 2x, b = 4",
+            "(2x)³ - 3(2x)²(4) + 3(2x)(4)² - (4)³",
+            "8x³ - 48x² + 96x - 64"
+          ],
+          "solution": "8 x^{3} - 48 x^{2} + 96 x - 64"
+        },
+        {
+          "id": "P052",
+          "problem": "(2x + 10)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 2x, b = 10",
+            "(2x)³ + 3(2x)²(10) + 3(2x)(10)² + (10)³",
+            "8x³ + 120x² + 600x + 1000"
+          ],
+          "solution": "8 x^{3} + 120 x^{2} + 600 x + 1000"
+        },
+        {
+          "id": "P053",
+          "problem": "(10x - 10)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 10x, b = 10",
+            "(10x)² - 2(10x)(10) + (10)²",
+            "100x² - 200x + 100"
+          ],
+          "solution": "100 x^{2} - 200 x + 100"
+        },
+        {
+          "id": "P054",
+          "problem": "(10x + 2)^2",
+          "steps": [
+            "Aplicar fórmula: (a + b)² = a² + 2ab + b²",
+            "a = 10x, b = 2",
+            "(10x)² + 2(10x)(2) + (2)²",
+            "100x² + 40x + 4"
+          ],
+          "solution": "100 x^{2} + 40 x + 4"
+        },
+        {
+          "id": "P055",
+          "problem": "(10x + 10)^3",
+          "steps": [
+            "Aplicar fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³",
+            "a = 10x, b = 10",
+            "(10x)³ + 3(10x)²(10) + 3(10x)(10)² + (10)³",
+            "1000x³ + 3000x² + 3000x + 1000"
+          ],
+          "solution": "1000 x^{3} + 3000 x^{2} + 3000 x + 1000"
+        },
+        {
+          "id": "P056",
+          "problem": "(6x - 5)^3",
+          "steps": [
+            "Aplicar fórmula: (a - b)³ = a³ - 3a²b + 3ab² - b³",
+            "a = 6x, b = 5",
+            "(6x)³ - 3(6x)²(5) + 3(6x)(5)² - (5)³",
+            "216x³ - 540x² + 450x - 125"
+          ],
+          "solution": "216 x^{3} - 540 x^{2} + 450 x - 125"
+        },
+        {
+          "id": "P057",
+          "problem": "(6x - 4)^2",
+          "steps": [
+            "Aplicar fórmula: (a - b)² = a² - 2ab + b²",
+            "a = 6x, b = 4",
+            "(6x)² - 2(6x)(4) + (4)²",
+            "36x² - 48x + 16"
+          ],
+          "solution": "36 x^{2} - 48 x + 16"
+        },
+        {
+          "id": "P058",
+          "problem": "(7x + 3)(7x - 3)",
+          "steps": [
+            "Aplicar fórmula: (a + b)(a - b) = a² - b²",
+            "a = 7x, b = 3",
+            "(7x)² - (3)²",
+            "49x² - 9"
+          ],
+          "solution": "49 x^{2} - 9"
+        },
+        {
+          "id": "P059",
+          "problem": "(8x + 6)(8x - 6)",
+          "steps": [
+            "Aplicar fórmula: (a + b)(a - b) = a² - b²",
+            "a = 8x, b = 6",
+            "(8x)² - (6)²",
+            "64x² - 36"
+          ],
+          "solution": "64 x^{2} - 36"
+        },
+        {
+          "id": "P060",
+          "problem": "(1x + 8)^2",
+          "steps": [
+            "Aplicar fórmula: (a + b)² = a² + 2ab + b²",
+            "a = 1x, b = 8",
+            "(1x)² + 2(1x)(8) + (8)²",
+            "1x² + 16x + 64"
+          ],
+          "solution": "x^{2} + 16 x + 64"
+        }
+      ]
+    },
+    {
+      "title": "Factorización",
+      "slug": "factorizacion",
+      "exercises": [
+        {
+          "id": "F061",
+          "problem": "2x² + 10x + 4",
+          "steps": [
+            "Identificar factor común: 2",
+            "Factorizar: 2(x² + 5x + 2)",
+            "Resultado: 2 \\left(x^{2} + 5 x + 2\\right)"
+          ],
+          "solution": "2 \\left(x^{2} + 5 x + 2\\right)"
+        },
+        {
+          "id": "F062",
+          "problem": "9x² + 24x + 16",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 3x, b = 4",
+            "(3x + 4)²",
+            "Resultado: \\left(3 x + 4\\right)^{2}"
+          ],
+          "solution": "\\left(3 x + 4\\right)^{2}"
+        },
+        {
+          "id": "F063",
+          "problem": "3x² + 9x + 9",
+          "steps": [
+            "Identificar factor común: 3",
+            "Factorizar: 3(x² + 3x + 3)",
+            "Resultado: 3 \\left(x^{2} + 3 x + 3\\right)"
+          ],
+          "solution": "3 \\left(x^{2} + 3 x + 3\\right)"
+        },
+        {
+          "id": "F064",
+          "problem": "81x² - 64",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 9x, b = 8",
+            "(9x + 8)(9x - 8)",
+            "Resultado: \\left(9 x - 8\\right) \\left(9 x + 8\\right)"
+          ],
+          "solution": "\\left(9 x - 8\\right) \\left(9 x + 8\\right)"
+        },
+        {
+          "id": "F065",
+          "problem": "36x² + 72x + 36",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 6x, b = 6",
+            "(6x + 6)²",
+            "Resultado: 36 \\left(x + 1\\right)^{2}"
+          ],
+          "solution": "36 \\left(x + 1\\right)^{2}"
+        },
+        {
+          "id": "F066",
+          "problem": "7x² + 35x + 21",
+          "steps": [
+            "Identificar factor común: 7",
+            "Factorizar: 7(x² + 5x + 3)",
+            "Resultado: 7 \\left(x^{2} + 5 x + 3\\right)"
+          ],
+          "solution": "7 \\left(x^{2} + 5 x + 3\\right)"
+        },
+        {
+          "id": "F067",
+          "problem": "3x² + 9x + 3",
+          "steps": [
+            "Identificar factor común: 3",
+            "Factorizar: 3(x² + 3x + 1)",
+            "Resultado: 3 \\left(x^{2} + 3 x + 1\\right)"
+          ],
+          "solution": "3 \\left(x^{2} + 3 x + 1\\right)"
+        },
+        {
+          "id": "F068",
+          "problem": "7x² + 35x + 14",
+          "steps": [
+            "Identificar factor común: 7",
+            "Factorizar: 7(x² + 5x + 2)",
+            "Resultado: 7 \\left(x^{2} + 5 x + 2\\right)"
+          ],
+          "solution": "7 \\left(x^{2} + 5 x + 2\\right)"
+        },
+        {
+          "id": "F069",
+          "problem": "16x² + 48x + 36",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 4x, b = 6",
+            "(4x + 6)²",
+            "Resultado: 4 \\left(2 x + 3\\right)^{2}"
+          ],
+          "solution": "4 \\left(2 x + 3\\right)^{2}"
+        },
+        {
+          "id": "F070",
+          "problem": "49x² - 9",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 7x, b = 3",
+            "(7x + 3)(7x - 3)",
+            "Resultado: \\left(7 x - 3\\right) \\left(7 x + 3\\right)"
+          ],
+          "solution": "\\left(7 x - 3\\right) \\left(7 x + 3\\right)"
+        },
+        {
+          "id": "F071",
+          "problem": "36x² + 60x + 25",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 6x, b = 5",
+            "(6x + 5)²",
+            "Resultado: \\left(6 x + 5\\right)^{2}"
+          ],
+          "solution": "\\left(6 x + 5\\right)^{2}"
+        },
+        {
+          "id": "F072",
+          "problem": "64x² + 32x + 4",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 8x, b = 2",
+            "(8x + 2)²",
+            "Resultado: 4 \\left(4 x + 1\\right)^{2}"
+          ],
+          "solution": "4 \\left(4 x + 1\\right)^{2}"
+        },
+        {
+          "id": "F073",
+          "problem": "7x² + 28x + 21",
+          "steps": [
+            "Identificar factor común: 7",
+            "Factorizar: 7(x² + 4x + 3)",
+            "Resultado: 7 \\left(x + 1\\right) \\left(x + 3\\right)"
+          ],
+          "solution": "7 \\left(x + 1\\right) \\left(x + 3\\right)"
+        },
+        {
+          "id": "F074",
+          "problem": "2x² + 6x + 4",
+          "steps": [
+            "Identificar factor común: 2",
+            "Factorizar: 2(x² + 3x + 2)",
+            "Resultado: 2 \\left(x + 1\\right) \\left(x + 2\\right)"
+          ],
+          "solution": "2 \\left(x + 1\\right) \\left(x + 2\\right)"
+        },
+        {
+          "id": "F075",
+          "problem": "9x² + 30x + 25",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 3x, b = 5",
+            "(3x + 5)²",
+            "Resultado: \\left(3 x + 5\\right)^{2}"
+          ],
+          "solution": "\\left(3 x + 5\\right)^{2}"
+        },
+        {
+          "id": "F076",
+          "problem": "5x² + (6)x + 1",
+          "steps": [
+            "Buscar dos números que multipliquen 5 y sumen 6",
+            "Factorizar por agrupación",
+            "Resultado: \\left(x + 1\\right) \\left(5 x + 1\\right)"
+          ],
+          "solution": "\\left(x + 1\\right) \\left(5 x + 1\\right)"
+        },
+        {
+          "id": "F077",
+          "problem": "100x² - 4",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 10x, b = 2",
+            "(10x + 2)(10x - 2)",
+            "Resultado: 4 \\left(5 x - 1\\right) \\left(5 x + 1\\right)"
+          ],
+          "solution": "4 \\left(5 x - 1\\right) \\left(5 x + 1\\right)"
+        },
+        {
+          "id": "F078",
+          "problem": "36x² + 72x + 36",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 6x, b = 6",
+            "(6x + 6)²",
+            "Resultado: 36 \\left(x + 1\\right)^{2}"
+          ],
+          "solution": "36 \\left(x + 1\\right)^{2}"
+        },
+        {
+          "id": "F079",
+          "problem": "64x² - 9",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 8x, b = 3",
+            "(8x + 3)(8x - 3)",
+            "Resultado: \\left(8 x - 3\\right) \\left(8 x + 3\\right)"
+          ],
+          "solution": "\\left(8 x - 3\\right) \\left(8 x + 3\\right)"
+        },
+        {
+          "id": "F080",
+          "problem": "4x² + 12x + 4",
+          "steps": [
+            "Identificar factor común: 4",
+            "Factorizar: 4(x² + 3x + 1)",
+            "Resultado: 4 \\left(x^{2} + 3 x + 1\\right)"
+          ],
+          "solution": "4 \\left(x^{2} + 3 x + 1\\right)"
+        },
+        {
+          "id": "F081",
+          "problem": "9x² + 18x + 9",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 3x, b = 3",
+            "(3x + 3)²",
+            "Resultado: 9 \\left(x + 1\\right)^{2}"
+          ],
+          "solution": "9 \\left(x + 1\\right)^{2}"
+        },
+        {
+          "id": "F082",
+          "problem": "4x² + 20x + 16",
+          "steps": [
+            "Identificar factor común: 4",
+            "Factorizar: 4(x² + 5x + 4)",
+            "Resultado: 4 \\left(x + 1\\right) \\left(x + 4\\right)"
+          ],
+          "solution": "4 \\left(x + 1\\right) \\left(x + 4\\right)"
+        },
+        {
+          "id": "F083",
+          "problem": "25x² - 64",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 5x, b = 8",
+            "(5x + 8)(5x - 8)",
+            "Resultado: \\left(5 x - 8\\right) \\left(5 x + 8\\right)"
+          ],
+          "solution": "\\left(5 x - 8\\right) \\left(5 x + 8\\right)"
+        },
+        {
+          "id": "F084",
+          "problem": "16x² - 25",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 4x, b = 5",
+            "(4x + 5)(4x - 5)",
+            "Resultado: \\left(4 x - 5\\right) \\left(4 x + 5\\right)"
+          ],
+          "solution": "\\left(4 x - 5\\right) \\left(4 x + 5\\right)"
+        },
+        {
+          "id": "F085",
+          "problem": "3x² + 18x + 9",
+          "steps": [
+            "Identificar factor común: 3",
+            "Factorizar: 3(x² + 6x + 3)",
+            "Resultado: 3 \\left(x^{2} + 6 x + 3\\right)"
+          ],
+          "solution": "3 \\left(x^{2} + 6 x + 3\\right)"
+        },
+        {
+          "id": "F086",
+          "problem": "36x² + (30)x + 6",
+          "steps": [
+            "Buscar dos números que multipliquen 216 y sumen 30",
+            "Factorizar por agrupación",
+            "Resultado: 6 \\left(2 x + 1\\right) \\left(3 x + 1\\right)"
+          ],
+          "solution": "6 \\left(2 x + 1\\right) \\left(3 x + 1\\right)"
+        },
+        {
+          "id": "F087",
+          "problem": "9x² - 25",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 3x, b = 5",
+            "(3x + 5)(3x - 5)",
+            "Resultado: \\left(3 x - 5\\right) \\left(3 x + 5\\right)"
+          ],
+          "solution": "\\left(3 x - 5\\right) \\left(3 x + 5\\right)"
+        },
+        {
+          "id": "F088",
+          "problem": "8x² + 32x + 16",
+          "steps": [
+            "Identificar factor común: 8",
+            "Factorizar: 8(x² + 4x + 2)",
+            "Resultado: 8 \\left(x^{2} + 4 x + 2\\right)"
+          ],
+          "solution": "8 \\left(x^{2} + 4 x + 2\\right)"
+        },
+        {
+          "id": "F089",
+          "problem": "81x² - 16",
+          "steps": [
+            "Reconocer diferencia de cuadrados: a² - b² = (a + b)(a - b)",
+            "a = 9x, b = 4",
+            "(9x + 4)(9x - 4)",
+            "Resultado: \\left(9 x - 4\\right) \\left(9 x + 4\\right)"
+          ],
+          "solution": "\\left(9 x - 4\\right) \\left(9 x + 4\\right)"
+        },
+        {
+          "id": "F090",
+          "problem": "64x² + 48x + 9",
+          "steps": [
+            "Reconocer cuadrado perfecto: a² + 2ab + b² = (a + b)²",
+            "a = 8x, b = 3",
+            "(8x + 3)²",
+            "Resultado: \\left(8 x + 3\\right)^{2}"
+          ],
+          "solution": "\\left(8 x + 3\\right)^{2}"
+        }
+      ]
+    },
+    {
+      "title": "Fracciones Algebraicas",
+      "slug": "fracciones-algebraicas",
+      "exercises": [
+        {
+          "id": "R091",
+          "problem": "\\frac{1}{x} + \\frac{2}{4x}",
+          "steps": [
+            "Encontrar común denominador: 4x",
+            "\\frac{4}{4x} + \\frac{2}{4x}",
+            "\\frac{6}{4x}",
+            "Resultado: \\frac{3}{2 x}"
+          ],
+          "solution": "\\frac{3}{2 x}"
+        },
+        {
+          "id": "R092",
+          "problem": "\\frac{3x}{1} \\div \\frac{3x}{3}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{3x}{1} \\cdot \\frac{3}{3x}",
+            "\\frac{9x}{3x}",
+            "Cancelar x",
+            "Resultado: 3"
+          ],
+          "solution": "3"
+        },
+        {
+          "id": "R093",
+          "problem": "\\frac{4x}{5} \\div \\frac{3x}{1}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{4x}{5} \\cdot \\frac{1}{3x}",
+            "\\frac{4x}{15x}",
+            "Cancelar x",
+            "Resultado: \\frac{4}{15}"
+          ],
+          "solution": "\\frac{4}{15}"
+        },
+        {
+          "id": "R094",
+          "problem": "\\frac{x^{2} + 3 x + 5}{5 x + 1}",
+          "steps": [
+            "Factorizar numerador y denominador",
+            "Cancelar factores comunes",
+            "Resultado: \\frac{x^{2} + 3 x + 5}{5 x + 1}"
+          ],
+          "solution": "\\frac{x^{2} + 3 x + 5}{5 x + 1}"
+        },
+        {
+          "id": "R095",
+          "problem": "\\frac{3x}{3} \\cdot \\frac{4}{5x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{12x}{15x}",
+            "Cancelar x",
+            "Resultado: \\frac{4}{5}"
+          ],
+          "solution": "\\frac{4}{5}"
+        },
+        {
+          "id": "R096",
+          "problem": "\\frac{1x}{4} \\div \\frac{5x}{2}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{1x}{4} \\cdot \\frac{2}{5x}",
+            "\\frac{2x}{20x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{10}"
+          ],
+          "solution": "\\frac{1}{10}"
+        },
+        {
+          "id": "R097",
+          "problem": "\\frac{1x}{4} \\div \\frac{1x}{5}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{1x}{4} \\cdot \\frac{5}{1x}",
+            "\\frac{5x}{4x}",
+            "Cancelar x",
+            "Resultado: \\frac{5}{4}"
+          ],
+          "solution": "\\frac{5}{4}"
+        },
+        {
+          "id": "R098",
+          "problem": "\\frac{2x}{3} \\div \\frac{4x}{1}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{2x}{3} \\cdot \\frac{1}{4x}",
+            "\\frac{2x}{12x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{6}"
+          ],
+          "solution": "\\frac{1}{6}"
+        },
+        {
+          "id": "R099",
+          "problem": "\\frac{5x}{3} \\div \\frac{1x}{3}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{5x}{3} \\cdot \\frac{3}{1x}",
+            "\\frac{15x}{3x}",
+            "Cancelar x",
+            "Resultado: 5"
+          ],
+          "solution": "5"
+        },
+        {
+          "id": "R100",
+          "problem": "\\frac{3x}{4} \\div \\frac{3x}{4}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{3x}{4} \\cdot \\frac{4}{3x}",
+            "\\frac{12x}{12x}",
+            "Cancelar x",
+            "Resultado: 1"
+          ],
+          "solution": "1"
+        },
+        {
+          "id": "R101",
+          "problem": "\\frac{5x}{2} \\div \\frac{2x}{4}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{5x}{2} \\cdot \\frac{4}{2x}",
+            "\\frac{20x}{4x}",
+            "Cancelar x",
+            "Resultado: 5"
+          ],
+          "solution": "5"
+        },
+        {
+          "id": "R102",
+          "problem": "\\frac{2x}{5} \\cdot \\frac{5}{3x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{10x}{15x}",
+            "Cancelar x",
+            "Resultado: \\frac{2}{3}"
+          ],
+          "solution": "\\frac{2}{3}"
+        },
+        {
+          "id": "R103",
+          "problem": "\\frac{5x}{1} \\cdot \\frac{3}{3x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{15x}{3x}",
+            "Cancelar x",
+            "Resultado: 5"
+          ],
+          "solution": "5"
+        },
+        {
+          "id": "R104",
+          "problem": "\\frac{4}{x} + \\frac{5}{5x}",
+          "steps": [
+            "Encontrar común denominador: 5x",
+            "\\frac{20}{5x} + \\frac{5}{5x}",
+            "\\frac{25}{5x}",
+            "Resultado: \\frac{5}{x}"
+          ],
+          "solution": "\\frac{5}{x}"
+        },
+        {
+          "id": "R105",
+          "problem": "\\frac{4x}{4} \\div \\frac{4x}{2}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{4x}{4} \\cdot \\frac{2}{4x}",
+            "\\frac{8x}{16x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{2}"
+          ],
+          "solution": "\\frac{1}{2}"
+        },
+        {
+          "id": "R106",
+          "problem": "\\frac{4x}{2} \\div \\frac{1x}{3}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{4x}{2} \\cdot \\frac{3}{1x}",
+            "\\frac{12x}{2x}",
+            "Cancelar x",
+            "Resultado: 6"
+          ],
+          "solution": "6"
+        },
+        {
+          "id": "R107",
+          "problem": "\\frac{5x}{3} \\div \\frac{1x}{2}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{5x}{3} \\cdot \\frac{2}{1x}",
+            "\\frac{10x}{3x}",
+            "Cancelar x",
+            "Resultado: \\frac{10}{3}"
+          ],
+          "solution": "\\frac{10}{3}"
+        },
+        {
+          "id": "R108",
+          "problem": "\\frac{2x}{2} \\div \\frac{2x}{1}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{2x}{2} \\cdot \\frac{1}{2x}",
+            "\\frac{2x}{4x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{2}"
+          ],
+          "solution": "\\frac{1}{2}"
+        },
+        {
+          "id": "R109",
+          "problem": "\\frac{x + 5}{5 x^{2} + 4 x + 4}",
+          "steps": [
+            "Factorizar numerador y denominador",
+            "Cancelar factores comunes",
+            "Resultado: \\frac{x + 5}{5 x^{2} + 4 x + 4}"
+          ],
+          "solution": "\\frac{x + 5}{5 x^{2} + 4 x + 4}"
+        },
+        {
+          "id": "R110",
+          "problem": "\\frac{4}{x} + \\frac{4}{4x}",
+          "steps": [
+            "Encontrar común denominador: 4x",
+            "\\frac{16}{4x} + \\frac{4}{4x}",
+            "\\frac{20}{4x}",
+            "Resultado: \\frac{5}{x}"
+          ],
+          "solution": "\\frac{5}{x}"
+        },
+        {
+          "id": "R111",
+          "problem": "\\frac{2}{x} + \\frac{1}{1x}",
+          "steps": [
+            "Encontrar común denominador: 1x",
+            "\\frac{2}{1x} + \\frac{1}{1x}",
+            "\\frac{3}{1x}",
+            "Resultado: \\frac{3}{x}"
+          ],
+          "solution": "\\frac{3}{x}"
+        },
+        {
+          "id": "R112",
+          "problem": "\\frac{2x}{2} \\cdot \\frac{5}{4x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{10x}{8x}",
+            "Cancelar x",
+            "Resultado: \\frac{5}{4}"
+          ],
+          "solution": "\\frac{5}{4}"
+        },
+        {
+          "id": "R113",
+          "problem": "\\frac{4 x^{3} + 2 x^{2} + 4 x + 1}{5 x + 5}",
+          "steps": [
+            "Factorizar numerador y denominador",
+            "Cancelar factores comunes",
+            "Resultado: \\frac{4 x^{3} + 2 x^{2} + 4 x + 1}{5 \\left(x + 1\\right)}"
+          ],
+          "solution": "\\frac{4 x^{3} + 2 x^{2} + 4 x + 1}{5 \\left(x + 1\\right)}"
+        },
+        {
+          "id": "R114",
+          "problem": "\\frac{3x}{4} \\div \\frac{5x}{5}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{3x}{4} \\cdot \\frac{5}{5x}",
+            "\\frac{15x}{20x}",
+            "Cancelar x",
+            "Resultado: \\frac{3}{4}"
+          ],
+          "solution": "\\frac{3}{4}"
+        },
+        {
+          "id": "R115",
+          "problem": "\\frac{5x}{4} \\cdot \\frac{2}{4x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{10x}{16x}",
+            "Cancelar x",
+            "Resultado: \\frac{5}{8}"
+          ],
+          "solution": "\\frac{5}{8}"
+        },
+        {
+          "id": "R116",
+          "problem": "\\frac{3x}{2} \\cdot \\frac{3}{5x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{9x}{10x}",
+            "Cancelar x",
+            "Resultado: \\frac{9}{10}"
+          ],
+          "solution": "\\frac{9}{10}"
+        },
+        {
+          "id": "R117",
+          "problem": "\\frac{2x}{3} \\cdot \\frac{4}{1x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{8x}{3x}",
+            "Cancelar x",
+            "Resultado: \\frac{8}{3}"
+          ],
+          "solution": "\\frac{8}{3}"
+        },
+        {
+          "id": "R118",
+          "problem": "\\frac{2x}{3} \\div \\frac{3x}{3}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{2x}{3} \\cdot \\frac{3}{3x}",
+            "\\frac{6x}{9x}",
+            "Cancelar x",
+            "Resultado: \\frac{2}{3}"
+          ],
+          "solution": "\\frac{2}{3}"
+        },
+        {
+          "id": "R119",
+          "problem": "\\frac{1x}{2} \\div \\frac{2x}{2}",
+          "steps": [
+            "Multiplicar por el recíproco",
+            "\\frac{1x}{2} \\cdot \\frac{2}{2x}",
+            "\\frac{2x}{4x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{2}"
+          ],
+          "solution": "\\frac{1}{2}"
+        },
+        {
+          "id": "R120",
+          "problem": "\\frac{2x}{2} \\cdot \\frac{1}{4x}",
+          "steps": [
+            "Multiplicar numeradores y denominadores",
+            "\\frac{2x}{8x}",
+            "Cancelar x",
+            "Resultado: \\frac{1}{4}"
+          ],
+          "solution": "\\frac{1}{4}"
+        }
+      ]
+    },
+    {
+      "title": "Ecuaciones Lineales",
+      "slug": "ecuaciones-lineales",
+      "exercises": [
+        {
+          "id": "L121",
+          "problem": "7x + 0 = 9x + 4",
+          "steps": [
+            "Agrupar términos con x: 7x - 9x = 4 - 0",
+            "(-2)x = 4",
+            "x = 4/-2",
+            "x = -2"
+          ],
+          "solution": "-2"
+        },
+        {
+          "id": "L122",
+          "problem": "7x - 9 = 4x + 3",
+          "steps": [
+            "Agrupar términos con x: 7x - 4x = 3 - -9",
+            "(3)x = 12",
+            "x = 12/3",
+            "x = 4"
+          ],
+          "solution": "4"
+        },
+        {
+          "id": "L123",
+          "problem": "7x + 8 = x + 8",
+          "steps": [
+            "Agrupar términos con x: 7x - 1x = 8 - 8",
+            "(6)x = 0",
+            "x = 0/6",
+            "x = 0"
+          ],
+          "solution": "0"
+        },
+        {
+          "id": "L124",
+          "problem": "7x + 5 = x + 1",
+          "steps": [
+            "Agrupar términos con x: 7x - 1x = 1 - 5",
+            "(6)x = -4",
+            "x = -4/6",
+            "x = -2/3"
+          ],
+          "solution": "- \\frac{2}{3}"
+        },
+        {
+          "id": "L125",
+          "problem": "5x + 2 = 7x + 7",
+          "steps": [
+            "Agrupar términos con x: 5x - 7x = 7 - 2",
+            "(-2)x = 5",
+            "x = 5/-2",
+            "x = -5/2"
+          ],
+          "solution": "- \\frac{5}{2}"
+        },
+        {
+          "id": "L126",
+          "problem": "9x + 9 = 4x + 5",
+          "steps": [
+            "Agrupar términos con x: 9x - 4x = 5 - 9",
+            "(5)x = -4",
+            "x = -4/5",
+            "x = -4/5"
+          ],
+          "solution": "- \\frac{4}{5}"
+        },
+        {
+          "id": "L127",
+          "problem": "4x - 2 = 7x + 5",
+          "steps": [
+            "Agrupar términos con x: 4x - 7x = 5 - -2",
+            "(-3)x = 7",
+            "x = 7/-3",
+            "x = -7/3"
+          ],
+          "solution": "- \\frac{7}{3}"
+        },
+        {
+          "id": "L128",
+          "problem": "x + 2 = 6x + 2",
+          "steps": [
+            "Agrupar términos con x: 1x - 6x = 2 - 2",
+            "(-5)x = 0",
+            "x = 0/-5",
+            "x = 0"
+          ],
+          "solution": "0"
+        },
+        {
+          "id": "L129",
+          "problem": "3x + 4 = 9x + 9",
+          "steps": [
+            "Agrupar términos con x: 3x - 9x = 9 - 4",
+            "(-6)x = 5",
+            "x = 5/-6",
+            "x = -5/6"
+          ],
+          "solution": "- \\frac{5}{6}"
+        },
+        {
+          "id": "L130",
+          "problem": "x + 2 = 10x + 8",
+          "steps": [
+            "Agrupar términos con x: 1x - 10x = 8 - 2",
+            "(-9)x = 6",
+            "x = 6/-9",
+            "x = -2/3"
+          ],
+          "solution": "- \\frac{2}{3}"
+        },
+        {
+          "id": "L131",
+          "problem": "x - 8 = 7x - 6",
+          "steps": [
+            "Agrupar términos con x: 1x - 7x = -6 - -8",
+            "(-6)x = 2",
+            "x = 2/-6",
+            "x = -1/3"
+          ],
+          "solution": "- \\frac{1}{3}"
+        },
+        {
+          "id": "L132",
+          "problem": "8x - 5 = x - 2",
+          "steps": [
+            "Agrupar términos con x: 8x - 1x = -2 - -5",
+            "(7)x = 3",
+            "x = 3/7",
+            "x = 3/7"
+          ],
+          "solution": "\\frac{3}{7}"
+        },
+        {
+          "id": "L133",
+          "problem": "7x + 0 = 4x + 4",
+          "steps": [
+            "Agrupar términos con x: 7x - 4x = 4 - 0",
+            "(3)x = 4",
+            "x = 4/3",
+            "x = 4/3"
+          ],
+          "solution": "\\frac{4}{3}"
+        },
+        {
+          "id": "L134",
+          "problem": "6x + 0 = 7x - 2",
+          "steps": [
+            "Agrupar términos con x: 6x - 7x = -2 - 0",
+            "(-1)x = -2",
+            "x = -2/-1",
+            "x = 2"
+          ],
+          "solution": "2"
+        },
+        {
+          "id": "L135",
+          "problem": "7x - 2 = 2x + 5",
+          "steps": [
+            "Agrupar términos con x: 7x - 2x = 5 - -2",
+            "(5)x = 7",
+            "x = 7/5",
+            "x = 7/5"
+          ],
+          "solution": "\\frac{7}{5}"
+        },
+        {
+          "id": "L136",
+          "problem": "x + 7 = 4x + 1",
+          "steps": [
+            "Agrupar términos con x: 1x - 4x = 1 - 7",
+            "(-3)x = -6",
+            "x = -6/-3",
+            "x = 2"
+          ],
+          "solution": "2"
+        },
+        {
+          "id": "L137",
+          "problem": "2x + 10 = x - 10",
+          "steps": [
+            "Agrupar términos con x: 2x - 1x = -10 - 10",
+            "(1)x = -20",
+            "x = -20/1",
+            "x = -20"
+          ],
+          "solution": "-20"
+        },
+        {
+          "id": "L138",
+          "problem": "4x - 4 = x + 9",
+          "steps": [
+            "Agrupar términos con x: 4x - 1x = 9 - -4",
+            "(3)x = 13",
+            "x = 13/3",
+            "x = 13/3"
+          ],
+          "solution": "\\frac{13}{3}"
+        },
+        {
+          "id": "L139",
+          "problem": "3x - 3 = 2x + 5",
+          "steps": [
+            "Agrupar términos con x: 3x - 2x = 5 - -3",
+            "(1)x = 8",
+            "x = 8/1",
+            "x = 8"
+          ],
+          "solution": "8"
+        },
+        {
+          "id": "L140",
+          "problem": "10x - 4 = 8x - 2",
+          "steps": [
+            "Agrupar términos con x: 10x - 8x = -2 - -4",
+            "(2)x = 2",
+            "x = 2/2",
+            "x = 1"
+          ],
+          "solution": "1"
+        },
+        {
+          "id": "L141",
+          "problem": "6x - 5 = 10x + 9",
+          "steps": [
+            "Agrupar términos con x: 6x - 10x = 9 - -5",
+            "(-4)x = 14",
+            "x = 14/-4",
+            "x = -7/2"
+          ],
+          "solution": "- \\frac{7}{2}"
+        },
+        {
+          "id": "L142",
+          "problem": "2x - 5 = 5x - 7",
+          "steps": [
+            "Agrupar términos con x: 2x - 5x = -7 - -5",
+            "(-3)x = -2",
+            "x = -2/-3",
+            "x = 2/3"
+          ],
+          "solution": "\\frac{2}{3}"
+        },
+        {
+          "id": "L143",
+          "problem": "10x - 10 = 5x + 8",
+          "steps": [
+            "Agrupar términos con x: 10x - 5x = 8 - -10",
+            "(5)x = 18",
+            "x = 18/5",
+            "x = 18/5"
+          ],
+          "solution": "\\frac{18}{5}"
+        },
+        {
+          "id": "L144",
+          "problem": "7x + 2 = 4x - 8",
+          "steps": [
+            "Agrupar términos con x: 7x - 4x = -8 - 2",
+            "(3)x = -10",
+            "x = -10/3",
+            "x = -10/3"
+          ],
+          "solution": "- \\frac{10}{3}"
+        },
+        {
+          "id": "L145",
+          "problem": "10x + 10 = 4x - 7",
+          "steps": [
+            "Agrupar términos con x: 10x - 4x = -7 - 10",
+            "(6)x = -17",
+            "x = -17/6",
+            "x = -17/6"
+          ],
+          "solution": "- \\frac{17}{6}"
+        },
+        {
+          "id": "L146",
+          "problem": "5x + 9 = 2x + 8",
+          "steps": [
+            "Agrupar términos con x: 5x - 2x = 8 - 9",
+            "(3)x = -1",
+            "x = -1/3",
+            "x = -1/3"
+          ],
+          "solution": "- \\frac{1}{3}"
+        },
+        {
+          "id": "L147",
+          "problem": "x + 1 = 9x + 3",
+          "steps": [
+            "Agrupar términos con x: 1x - 9x = 3 - 1",
+            "(-8)x = 2",
+            "x = 2/-8",
+            "x = -1/4"
+          ],
+          "solution": "- \\frac{1}{4}"
+        },
+        {
+          "id": "L148",
+          "problem": "6x - 8 = 9x + 10",
+          "steps": [
+            "Agrupar términos con x: 6x - 9x = 10 - -8",
+            "(-3)x = 18",
+            "x = 18/-3",
+            "x = -6"
+          ],
+          "solution": "-6"
+        },
+        {
+          "id": "L149",
+          "problem": "6x - 10 = 7x + 5",
+          "steps": [
+            "Agrupar términos con x: 6x - 7x = 5 - -10",
+            "(-1)x = 15",
+            "x = 15/-1",
+            "x = -15"
+          ],
+          "solution": "-15"
+        },
+        {
+          "id": "L150",
+          "problem": "2x + 3 = 6x + 10",
+          "steps": [
+            "Agrupar términos con x: 2x - 6x = 10 - 3",
+            "(-4)x = 7",
+            "x = 7/-4",
+            "x = -7/4"
+          ],
+          "solution": "- \\frac{7}{4}"
+        }
+      ]
+    },
+    {
+      "title": "Ecuaciones Cuadráticas",
+      "slug": "ecuaciones-cuadraticas",
+      "exercises": [
+        {
+          "id": "Q151",
+          "problem": "12x² + 20x + 8 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 96 y sumen 20",
+            "(6x + 4)(2x + 2) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -4/6, x₂ = -2/2"
+          ],
+          "solution": "x₁ = -1, x₂ = - \\frac{2}{3}"
+        },
+        {
+          "id": "Q152",
+          "problem": "25x² + 40x + 16 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 400 y sumen 40",
+            "(5x + 4)(5x + 4) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -4/5, x₂ = -4/5"
+          ],
+          "solution": "x = - \\frac{4}{5}"
+        },
+        {
+          "id": "Q153",
+          "problem": "30x² + 33x + 9 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 270 y sumen 33",
+            "(6x + 3)(5x + 3) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -3/6, x₂ = -3/5"
+          ],
+          "solution": "x₁ = - \\frac{3}{5}, x₂ = - \\frac{1}{2}"
+        },
+        {
+          "id": "Q154",
+          "problem": "1x² + 8x + 9 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 1, b = 8, c = 9",
+            "Discriminante: b² - 4ac = 28",
+            "x = (-8 ± √(28)) / 2"
+          ],
+          "solution": "x₁ = -4 - \\sqrt{7}, x₂ = -4 + \\sqrt{7}"
+        },
+        {
+          "id": "Q155",
+          "problem": "3x² + 13x + 12 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 36 y sumen 13",
+            "(3x + 4)(1x + 3) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -4/3, x₂ = -3/1"
+          ],
+          "solution": "x₁ = -3, x₂ = - \\frac{4}{3}"
+        },
+        {
+          "id": "Q156",
+          "problem": "4x² - 4x + 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 4, b = -4, c = 1",
+            "Discriminante: b² - 4ac = 0",
+            "x = (4 ± √(0)) / 8"
+          ],
+          "solution": "x = \\frac{1}{2}"
+        },
+        {
+          "id": "Q157",
+          "problem": "9x² + 12x + 3 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 27 y sumen 12",
+            "(3x + 3)(3x + 1) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -3/3, x₂ = -1/3"
+          ],
+          "solution": "x₁ = -1, x₂ = - \\frac{1}{3}"
+        },
+        {
+          "id": "Q158",
+          "problem": "1x² + 10x + 5 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 1, b = 10, c = 5",
+            "Discriminante: b² - 4ac = 80",
+            "x = (-10 ± √(80)) / 2"
+          ],
+          "solution": "x₁ = -5 - 2 \\sqrt{5}, x₂ = -5 + 2 \\sqrt{5}"
+        },
+        {
+          "id": "Q159",
+          "problem": "1x² + 5x + 6 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 6 y sumen 5",
+            "(1x + 3)(1x + 2) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -3/1, x₂ = -2/1"
+          ],
+          "solution": "x₁ = -3, x₂ = -2"
+        },
+        {
+          "id": "Q160",
+          "problem": "12x² + 24x + 9 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 108 y sumen 24",
+            "(6x + 3)(2x + 3) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -3/6, x₂ = -3/2"
+          ],
+          "solution": "x₁ = - \\frac{3}{2}, x₂ = - \\frac{1}{2}"
+        },
+        {
+          "id": "Q161",
+          "problem": "25x² + 35x + 12 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 300 y sumen 35",
+            "(5x + 3)(5x + 4) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -3/5, x₂ = -4/5"
+          ],
+          "solution": "x₁ = - \\frac{4}{5}, x₂ = - \\frac{3}{5}"
+        },
+        {
+          "id": "Q162",
+          "problem": "18x² + 33x + 12 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 216 y sumen 33",
+            "(3x + 4)(6x + 3) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -4/3, x₂ = -3/6"
+          ],
+          "solution": "x₁ = - \\frac{4}{3}, x₂ = - \\frac{1}{2}"
+        },
+        {
+          "id": "Q163",
+          "problem": "6x² + 8x + 2 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 12 y sumen 8",
+            "(3x + 1)(2x + 2) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -1/3, x₂ = -2/2"
+          ],
+          "solution": "x₁ = -1, x₂ = - \\frac{1}{3}"
+        },
+        {
+          "id": "Q164",
+          "problem": "6x² + 14x + 4 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 24 y sumen 14",
+            "(1x + 2)(6x + 2) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -2/1, x₂ = -2/6"
+          ],
+          "solution": "x₁ = -2, x₂ = - \\frac{1}{3}"
+        },
+        {
+          "id": "Q165",
+          "problem": "4x² - 1x - 7 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 4, b = -1, c = -7",
+            "Discriminante: b² - 4ac = 113",
+            "x = (1 ± √(113)) / 8"
+          ],
+          "solution": "x₁ = \\frac{1}{8} - \\frac{\\sqrt{113}}{8}, x₂ = \\frac{1}{8} + \\frac{\\sqrt{113}}{8}"
+        },
+        {
+          "id": "Q166",
+          "problem": "3x² - 5x - 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 3, b = -5, c = -1",
+            "Discriminante: b² - 4ac = 37",
+            "x = (5 ± √(37)) / 6"
+          ],
+          "solution": "x₁ = \\frac{5}{6} - \\frac{\\sqrt{37}}{6}, x₂ = \\frac{5}{6} + \\frac{\\sqrt{37}}{6}"
+        },
+        {
+          "id": "Q167",
+          "problem": "5x² - 6x - 2 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 5, b = -6, c = -2",
+            "Discriminante: b² - 4ac = 76",
+            "x = (6 ± √(76)) / 10"
+          ],
+          "solution": "x₁ = \\frac{3}{5} - \\frac{\\sqrt{19}}{5}, x₂ = \\frac{3}{5} + \\frac{\\sqrt{19}}{5}"
+        },
+        {
+          "id": "Q168",
+          "problem": "1x² + 7x - 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 1, b = 7, c = -1",
+            "Discriminante: b² - 4ac = 53",
+            "x = (-7 ± √(53)) / 2"
+          ],
+          "solution": "x₁ = - \\frac{7}{2} + \\frac{\\sqrt{53}}{2}, x₂ = - \\frac{\\sqrt{53}}{2} - \\frac{7}{2}"
+        },
+        {
+          "id": "Q169",
+          "problem": "4x² - 7x - 10 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 4, b = -7, c = -10",
+            "Discriminante: b² - 4ac = 209",
+            "x = (7 ± √(209)) / 8"
+          ],
+          "solution": "x₁ = \\frac{7}{8} - \\frac{\\sqrt{209}}{8}, x₂ = \\frac{7}{8} + \\frac{\\sqrt{209}}{8}"
+        },
+        {
+          "id": "Q170",
+          "problem": "16x² + 28x + 12 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 192 y sumen 28",
+            "(4x + 4)(4x + 3) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -4/4, x₂ = -3/4"
+          ],
+          "solution": "x₁ = -1, x₂ = - \\frac{3}{4}"
+        },
+        {
+          "id": "Q171",
+          "problem": "1x² - 7x - 8 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 1, b = -7, c = -8",
+            "Discriminante: b² - 4ac = 81",
+            "x = (7 ± √(81)) / 2"
+          ],
+          "solution": "x₁ = -1, x₂ = 8"
+        },
+        {
+          "id": "Q172",
+          "problem": "4x² + 9x + 2 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 8 y sumen 9",
+            "(4x + 1)(1x + 2) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -1/4, x₂ = -2/1"
+          ],
+          "solution": "x₁ = -2, x₂ = - \\frac{1}{4}"
+        },
+        {
+          "id": "Q173",
+          "problem": "5x² - 1x - 8 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 5, b = -1, c = -8",
+            "Discriminante: b² - 4ac = 161",
+            "x = (1 ± √(161)) / 10"
+          ],
+          "solution": "x₁ = \\frac{1}{10} - \\frac{\\sqrt{161}}{10}, x₂ = \\frac{1}{10} + \\frac{\\sqrt{161}}{10}"
+        },
+        {
+          "id": "Q174",
+          "problem": "1x² + 7x + 3 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 1, b = 7, c = 3",
+            "Discriminante: b² - 4ac = 37",
+            "x = (-7 ± √(37)) / 2"
+          ],
+          "solution": "x₁ = - \\frac{7}{2} - \\frac{\\sqrt{37}}{2}, x₂ = - \\frac{7}{2} + \\frac{\\sqrt{37}}{2}"
+        },
+        {
+          "id": "Q175",
+          "problem": "5x² + 4x - 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 5, b = 4, c = -1",
+            "Discriminante: b² - 4ac = 36",
+            "x = (-4 ± √(36)) / 10"
+          ],
+          "solution": "x₁ = -1, x₂ = \\frac{1}{5}"
+        },
+        {
+          "id": "Q176",
+          "problem": "15x² + 8x + 1 = 0",
+          "steps": [
+            "Factorizar la ecuación",
+            "Buscar dos números que multipliquen 15 y sumen 8",
+            "(3x + 1)(5x + 1) = 0",
+            "Aplicar propiedad del producto nulo",
+            "x₁ = -1/3, x₂ = -1/5"
+          ],
+          "solution": "x₁ = - \\frac{1}{3}, x₂ = - \\frac{1}{5}"
+        },
+        {
+          "id": "Q177",
+          "problem": "2x² - 2x - 8 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 2, b = -2, c = -8",
+            "Discriminante: b² - 4ac = 68",
+            "x = (2 ± √(68)) / 4"
+          ],
+          "solution": "x₁ = \\frac{1}{2} - \\frac{\\sqrt{17}}{2}, x₂ = \\frac{1}{2} + \\frac{\\sqrt{17}}{2}"
+        },
+        {
+          "id": "Q178",
+          "problem": "2x² - 8x - 5 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 2, b = -8, c = -5",
+            "Discriminante: b² - 4ac = 104",
+            "x = (8 ± √(104)) / 4"
+          ],
+          "solution": "x₁ = 2 - \\frac{\\sqrt{26}}{2}, x₂ = 2 + \\frac{\\sqrt{26}}{2}"
+        },
+        {
+          "id": "Q179",
+          "problem": "4x² + 5x - 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 4, b = 5, c = -1",
+            "Discriminante: b² - 4ac = 41",
+            "x = (-5 ± √(41)) / 8"
+          ],
+          "solution": "x₁ = - \\frac{5}{8} + \\frac{\\sqrt{41}}{8}, x₂ = - \\frac{\\sqrt{41}}{8} - \\frac{5}{8}"
+        },
+        {
+          "id": "Q180",
+          "problem": "2x² - 1x - 1 = 0",
+          "steps": [
+            "Aplicar fórmula cuadrática: x = (-b ± √(b² - 4ac)) / 2a",
+            "Identificar coeficientes: a = 2, b = -1, c = -1",
+            "Discriminante: b² - 4ac = 9",
+            "x = (1 ± √(9)) / 4"
+          ],
+          "solution": "x₁ = - \\frac{1}{2}, x₂ = 1"
+        }
+      ]
+    }
+  ],
+  "total_exercises": 180
+}

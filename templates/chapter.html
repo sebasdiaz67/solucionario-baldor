@@ -1,0 +1,400 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="content-wrapper">
+    <h1>📖 {{ chapter.title }}</h1>
+    
+    <div class="chapter-info">
+        <p><strong>Capítulo</strong> - {{ chapter.exercises|length }} ejercicios disponibles</p>
+    </div>
+    
+    <div class="controls">
+        <button class="control-btn" onclick="showAllSolutions()">👁️ Mostrar Todas las Soluciones</button>
+        <button class="control-btn" onclick="hideAllSolutions()">🙈 Ocultar Todas las Soluciones</button>
+    </div>
+    
+    <div class="exercises-container">
+        {% for exercise in chapter.exercises %}
+        <div class="exercise-card" id="exercise-{{ loop.index }}">
+            <div class="exercise-header">
+                <span class="exercise-id">Ejercicio {{ exercise.id }}</span>
+                <span class="exercise-number">{{ loop.index }}/{{ chapter.exercises|length }}</span>
+            </div>
+            
+            <div class="exercise-problem mathjax">
+                <strong>Problema:</strong> ${{ exercise.problem }}$
+            </div>
+            
+            <div class="solution-section">
+                <button class="solution-toggle" onclick="toggleSolution(this)">
+                    👁️ Ver Solución
+                </button>
+                
+                <div class="solution-content">
+                    <div class="steps">
+                        <h4>📝 Pasos de la Solución:</h4>
+                        {% for step in exercise.steps %}
+                        <div class="step">
+                            <span class="step-number">{{ loop.index }}.</span>
+                            {% if '$' in step or '\\(' in step or '\\[' in step %}
+                                <span class="mathjax">{{ step }}</span>
+                            {% else %}
+                                {{ step }}
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="final-solution mathjax">
+                        <strong>💡 Solución Final:</strong> ${{ exercise.solution }}$
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="navigation">
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn home-btn">
+                🏠 Volver al Inicio
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+.chapter-info {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.exercises-container {
+    margin: 2rem 0;
+}
+
+.exercise-number {
+    background: rgba(255,255,255,0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.steps {
+    margin-bottom: 1.5rem;
+}
+
+.steps h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.step {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f1f8ff;
+    border-left: 4px solid #3498db;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.step:hover {
+    background-color: #e3f2fd;
+}
+
+.step-number {
+    font-weight: bold;
+    color: #3498db;
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #3498db;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    min-width: 150px;
+    text-align: center;
+}
+
+.prev-btn {
+    background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+    color: white;
+}
+
+.prev-btn:hover {
+    background: linear-gradient(135deg, #7f8c8d 0%, #707b7c 100%);
+    transform: translateX(-5px);
+}
+
+.home-btn {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+}
+
+.home-btn:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #21618c 100%);
+    transform: translateY(-2px);
+}
+
+.next-btn {
+    background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+    color: white;
+}
+
+.next-btn:hover {
+    background: linear-gradient(135deg, #229954 0%, #1e8449 100%);
+    transform: translateX(5px);
+}
+
+/* Progress indicator */
+.progress-bar {
+    background: #ecf0f1;
+    height: 8px;
+    border-radius: 4px;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+/* Exercise numbering */
+.exercise-counter {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+/* Smooth scroll to exercise */
+.exercise-jump {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.jump-input {
+    padding: 0.5rem;
+    border: 2px solid #3498db;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.jump-btn {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.jump-btn:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #21618c 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .nav-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .exercise-counter {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+    
+    .exercise-jump {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .jump-input, .jump-btn {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .sidebar,
+    .controls,
+    .solution-toggle,
+    .navigation {
+        display: none !important;
+    }
+    
+    .main-content {
+        margin-left: 0 !important;
+    }
+    
+    .exercise-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .solution-content {
+        display: block !important;
+    }
+}
+</style>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Jump to specific exercise
+function jumpToExercise() {
+    const exerciseNum = document.getElementById('exerciseNumber').value;
+    const targetId = 'exercise-' + exerciseNum;
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+        targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+        
+        // Highlight the exercise
+        targetElement.style.backgroundColor = '#fff3cd';
+        setTimeout(() => {
+            targetElement.style.backgroundColor = '';
+        }, 2000);
+    } else {
+        alert('Ejercicio no encontrado. Ingresa un número entre 1 y {{ chapter.exercises|length }}');
+    }
+}
+
+// Progress indicator
+function updateProgress() {
+    const exercises = document.querySelectorAll('.exercise-card');
+    const solutions = document.querySelectorAll('.solution-content.show');
+    const progress = (solutions.length / exercises.length) * 100;
+    
+    const progressFill = document.querySelector('.progress-fill');
+    if (progressFill) {
+        progressFill.style.width = progress + '%';
+    }
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+    // Ctrl/Cmd + Enter to show/hide all solutions
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        const allVisible = document.querySelectorAll('.solution-content.show').length === document.querySelectorAll('.solution-content').length;
+        if (allVisible) {
+            hideAllSolutions();
+        } else {
+            showAllSolutions();
+        }
+    }
+    
+    // Number keys to jump to exercises
+    if (e.key >= '1' && e.key <= '9') {
+        const exerciseNum = parseInt(e.key);
+        if (exerciseNum <= {{ chapter.exercises|length }}) {
+            document.getElementById('exerciseNumber').value = exerciseNum;
+            jumpToExercise();
+        }
+    }
+});
+
+// Update progress when solutions are toggled
+const originalToggleSolution = toggleSolution;
+toggleSolution = function(button) {
+    originalToggleSolution(button);
+    updateProgress();
+};
+
+// Initialize progress
+document.addEventListener('DOMContentLoaded', function() {
+    updateProgress();
+    
+    // Add progress bar if not exists
+    if (!document.querySelector('.progress-bar')) {
+        const progressBar = document.createElement('div');
+        progressBar.className = 'progress-bar';
+        progressBar.innerHTML = '<div class="progress-fill" style="width: 0%"></div>';
+        
+        const controls = document.querySelector('.controls');
+        if (controls) {
+            controls.parentNode.insertBefore(progressBar, controls.nextSibling);
+        }
+    }
+    
+    // Add exercise counter
+    const counter = document.createElement('div');
+    counter.className = 'exercise-counter';
+    counter.textContent = '{{ chapter.exercises|length }} ejercicios';
+    document.querySelector('.content-wrapper').prepend(counter);
+    
+    // Add exercise jump functionality
+    const jumpDiv = document.createElement('div');
+    jumpDiv.className = 'exercise-jump';
+    jumpDiv.innerHTML = `
+        <input type="number" id="exerciseNumber" min="1" max="{{ chapter.exercises|length }}" placeholder="Ejercicio #" class="jump-input">
+        <button onclick="jumpToExercise()" class="jump-btn">Ir</button>
+    `;
+    document.querySelector('.content-wrapper').appendChild(jumpDiv);
+});
+
+// Track reading progress
+window.addEventListener('scroll', function() {
+    const exercises = document.querySelectorAll('.exercise-card');
+    const scrollPosition = window.scrollY + window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    
+    if (scrollPosition >= documentHeight - 100) {
+        // User has reached the bottom
+        console.log('Has llegado al final del capítulo');
+    }
+});
+</script>
+{% endblock %}

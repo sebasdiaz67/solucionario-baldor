@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Solucionario de Álgebra (Baldor)
 
 Un solucionario interactivo de álgebra generado automáticamente con ejercicios y soluciones paso a paso, publicado como sitio web estático.
@@ -236,3 +237,7 @@ Este proyecto está bajo la Licencia MIT. Puedes usarlo, modificarlo y distribui
 **¡Feliz aprendizaje! 🎓**
 
 Si tienes algún problema o sugerencia, no dudes en abrir un issue en el repositorio.
+=======
+# solucionario-baldor
+Ejercicio con python y html generado con IA para solucionar algunos ejercicios matemáticos
+>>>>>>> 0d5dbb9efbbd870606f1c90524427d205b62925f
